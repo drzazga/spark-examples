@@ -2,7 +2,6 @@ package pl.drzazga.spark.wordcount;
 
 import java.net.URISyntaxException;
 import java.util.Arrays;
-import java.util.Comparator;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
@@ -36,5 +35,5 @@ public class WordCounter {
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
-	}
+    }
 }
